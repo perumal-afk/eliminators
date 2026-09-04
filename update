@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FF ARENA - Update</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:
+        radial-gradient(circle at top,#263b70 0%,#0b1020 45%,#05060b 100%);
+    color:white;
+    overflow:hidden;
+}
+
+.container{
+    width:90%;
+    max-width:480px;
+    padding:40px 25px;
+    text-align:center;
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:25px;
+    background:rgba(255,255,255,.07);
+    backdrop-filter:blur(15px);
+    box-shadow:0 20px 60px rgba(0,0,0,.5);
+}
+
+.logo{
+    width:100px;
+    height:100px;
+    margin:auto;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#ff3131,#ff8a00);
+    font-size:27px;
+    font-weight:900;
+    box-shadow:0 0 35px rgba(255,70,30,.5);
+}
+
+h1{
+    margin-top:25px;
+    font-size:32px;
+    letter-spacing:2px;
+}
+
+h1 span{
+    color:#ff8a00;
+}
+
+.status{
+    display:inline-block;
+    margin:20px 0;
+    padding:9px 18px;
+    border-radius:30px;
+    background:rgba(255,170,0,.15);
+    color:#ffc107;
+    border:1px solid rgba(255,193,7,.3);
+    font-size:13px;
+    font-weight:bold;
+}
+
+.message{
+    color:#d8d8d8;
+    line-height:1.7;
+    font-size:15px;
+}
+
+.loader{
+    width:55px;
+    height:55px;
+    margin:28px auto;
+    border:5px solid rgba(255,255,255,.15);
+    border-top:5px solid #ff7b00;
+    border-radius:50%;
+    animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+    to{transform:rotate(360deg);}
+}
+
+.insta{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    margin-top:15px;
+    padding:12px 20px;
+    border-radius:30px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    background:linear-gradient(45deg,#833ab4,#fd1d1d,#fcb045);
+    box-shadow:0 8px 25px rgba(253,29,29,.25);
+    transition:.3s;
+}
+
+.insta:hover{
+    transform:scale(1.05);
+}
+
+.insta-icon{
+    font-size:21px;
+}
+
+.footer{
+    margin-top:25px;
+    font-size:12px;
+    color:#888;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">
+        FF
+    </div>
+
+    <h1>FF <span>ARENA</span></h1>
+
+    <div class="status">
+        ⚙️ WEBSITE UPDATE IN PROGRESS
+    </div>
+
+    <p class="message">
+        Our website is currently being updated to provide
+        you with a better and smoother experience.
+        <br><br>
+        <strong>Please cooperate with us ❤️</strong>
+        <br>
+        We’ll be back soon with exciting updates!
+    </p>
+
+    <div class="loader"></div>
+
+    <p style="color:#aaa;font-size:13px;">
+        Follow us for the latest updates
+    </p>
+
+    <a class="insta"
+       href="https://instagram.com/FF_ARENA_OWNER"
+       target="_blank">
+        <span class="insta-icon">📷</span>
+        @FF_ARENA_OWNER
+    </a>
+
+    <div class="footer">
+        © 2026 FF ARENA • All Rights Reserved
+    </div>
+
+</div>
+
+</body>
+</html>
